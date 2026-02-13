@@ -35,7 +35,7 @@ export default function Header() {
         <SlotLogo src={logo777} />
 
         <CTA>
-          <Button onClick={openGame/* () => setOpen(true) */}>
+          <Button onClick={/* openGame */() => setOpen(true)}>
             {t("header.cta")}
           </Button>
         </CTA>

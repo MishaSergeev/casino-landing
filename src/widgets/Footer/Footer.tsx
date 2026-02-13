@@ -58,11 +58,11 @@ export default function Footer() {
   };
 
   const themeOptions: OptionType[] = lang.value === "tr"
-    ? [{ label: "Orange", value: "orange" }]
-    : [{ label: "Green", value: "green" }];
+    ? [{ label: "Orange", value: "orange" },{ label: "Green", value: "green" }]
+    : [{ label: "Green", value: "green" },{ label: "Orange", value: "orange" }];
 
   const selectedTheme =
-    themeOptions.find(o => o.value === theme) ?? themeOptions[0];
+    /* themeOptions.find(o => o.value === theme) ?? */ themeOptions[0];
 
   const handleThemeChange = (option: OptionType) => {
     setTheme(option.value as ThemeName);
