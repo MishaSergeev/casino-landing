@@ -152,7 +152,7 @@
   @media (max-width: 375px) {
     width: 170px;
   }
-`,wr=Qt.div``,Sr=n.p+"40b06ddb883acf0974d4.png",xr=n.p+"0e61eb60ec560804be60.png";function Cr(){const{t}=cr(),[n,r]=(0,o.useState)(!1);return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsxs)(vr,{children:[(0,e.jsx)(br,{src:Sr}),(0,e.jsx)(kr,{src:xr}),(0,e.jsx)(wr,{children:(0,e.jsx)(dr,{onClick:()=>r(!0),children:t("header.cta")})})]}),(0,e.jsx)(yr,{open:n,onClose:()=>r(!1),src:"https://gateway.eva-digital-playground.com/v0/casino/games/launch?gameId=n2-novomatic-book-of-ra-deluxe&channel=desktop&partnerKey=0wl&lobbyUrl=https://chinchincasino.com&mode=demo&language=en"})]})}const Er=Qt.div`
+`,wr=Qt.div``,Sr=n.p+"40b06ddb883acf0974d4.png",xr=n.p+"0e61eb60ec560804be60.png",Cr="https://gateway.eva-digital-playground.com/v0/casino/games/launch?gameId=n2-novomatic-book-of-ra-deluxe&channel=desktop&partnerKey=0wl&lobbyUrl=https://chinchincasino.com&mode=demo&language=en";function Er(){const{t}=cr(),[n,r]=(0,o.useState)(!1);return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsxs)(vr,{children:[(0,e.jsx)(br,{src:Sr}),(0,e.jsx)(kr,{src:xr}),(0,e.jsx)(wr,{children:(0,e.jsx)(dr,{onClick:()=>{window.open(Cr,"_blank","width=1024,height=768,resizable=yes,scrollbars=yes,status=yes")},children:t("header.cta")})})]}),(0,e.jsx)(yr,{open:n,onClose:()=>r(!1),src:Cr})]})}const Pr=Qt.div`
   border: 1px dashed #FFBA47;
   border-radius: 18px;
 
@@ -164,9 +164,9 @@
   gap: 10px;
 
   backdrop-filter: blur(6px);
-`,Pr=Qt.img`
+`,Nr=Qt.img`
   width: 120px;
-`,Nr=Qt.div`
+`,Or=Qt.div`
   font-family: "SF Pro", sans-serif;
   font-weight: 800;
   font-size: 32px;
@@ -176,9 +176,9 @@
 
   color: #ffffff;
   opacity: 1;
-`,Or=Qt.div`
+`,Lr=Qt.div`
   font-family: "SF Pro", sans-serif;
-  font-weight: 600; /* Semibold */
+  font-weight: 600; 
   font-size: 16px;
   line-height: 22px;
   letter-spacing: 0;
@@ -186,9 +186,9 @@
 
   color: #bababa;
   opacity: 1;
-`,Lr=Qt.div`
+`,_r=Qt.div`
   margin-top: 6px;
-`,_r=n.p+"673dc50cd67e6f196032.svg";function zr(){const{t}=cr();return(0,e.jsxs)(Er,{children:[(0,e.jsx)(Pr,{src:Sr}),(0,e.jsx)(Nr,{children:t("footer.dowloadTitle")}),(0,e.jsx)(Or,{children:t("footer.dowloadSubtitle")}),(0,e.jsx)(Lr,{children:(0,e.jsx)(dr,{img:_r,children:t("footer.dowloadCta")})})]})}const Tr=Qt.div`
+`,zr=n.p+"673dc50cd67e6f196032.svg";function Tr(){const{t}=cr();return(0,e.jsxs)(Pr,{children:[(0,e.jsx)(Nr,{src:Sr}),(0,e.jsx)(Or,{children:t("footer.dowloadTitle")}),(0,e.jsx)(Lr,{children:t("footer.dowloadSubtitle")}),(0,e.jsx)(_r,{children:(0,e.jsx)(dr,{img:zr,children:t("footer.dowloadCta")})})]})}const Rr=Qt.div`
   display: grid;
   gap: 14px 22px;
   align-items: center;
@@ -214,11 +214,11 @@
       "t2";
     text-align: center;
   }
-`,Rr=Qt.div`
+`,Ar=Qt.div`
   grid-area: ${e=>e.area};
   display: flex;
   justify-content: center;
-`,Ar=Qt.div`
+`,jr=Qt.div`
   font-family: "SF Pro", -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -226,12 +226,12 @@
   letter-spacing: 0;
   color: #FBFBFBB2;
   grid-area: ${e=>e.area};
-`,jr=Qt.img`
+`,Fr=Qt.img`
   height: 58px;
-`,Fr=n.p+"58ed18186b5560d95b11.svg",Ir=n.p+"be1166f5705735c0c526.png";function Dr(){const{t}=cr();return(0,e.jsxs)(Tr,{children:[(0,e.jsx)(Rr,{area:"i1",children:(0,e.jsx)(jr,{src:Fr})}),(0,e.jsx)(Ar,{area:"t1",children:t("footer.age")}),(0,e.jsx)(Rr,{area:"i2",children:(0,e.jsx)(jr,{src:Ir})}),(0,e.jsx)(Ar,{area:"t2",children:t("footer.certificate")})]})}const $r=Qt.div`
+`,Ir=n.p+"58ed18186b5560d95b11.svg",Dr=n.p+"be1166f5705735c0c526.png";function $r(){const{t}=cr();return(0,e.jsxs)(Rr,{children:[(0,e.jsx)(Ar,{area:"i1",children:(0,e.jsx)(Fr,{src:Ir})}),(0,e.jsx)(jr,{area:"t1",children:t("footer.age")}),(0,e.jsx)(Ar,{area:"i2",children:(0,e.jsx)(Fr,{src:Dr})}),(0,e.jsx)(jr,{area:"t2",children:t("footer.certificate")})]})}const Mr=Qt.div`
   position: relative;
   width: 289px;
-`,Mr=Qt.div`
+`,Ur=Qt.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -252,7 +252,7 @@
     width: 24px;
     height: 24px;
   }
-`,Ur=Qt.span`
+`,Hr=Qt.span`
   display: inline-block;
   width: 9px;
   height: 9px;
@@ -261,7 +261,7 @@
   transform: rotate(${e=>e.open?"225deg":"45deg"});
   transition: transform 0.2s ease;
   margin-left: auto;
-`,Hr=Qt.div`
+`,Vr=Qt.div`
   position: absolute;
   top: 100%;
   left: 0;
@@ -273,7 +273,7 @@
   z-index: 10;
   max-height: 200px;
   overflow-y: auto;
-`,Vr=Qt.div`
+`,Br=Qt.div`
   display: flex;
   align-items: center;
   gap: 12px;
@@ -293,7 +293,7 @@
   &:hover {
     background: rgba(255, 255, 255, 0.08);
   }
-`;function Br({options:t,value:n,onChange:r}){const[a,i]=(0,o.useState)(!1),l=(0,o.useRef)(null);return(0,o.useEffect)(()=>{const e=e=>{var t;(null===(t=l.current)||void 0===t?void 0:t.contains(e.target))||i(!1)};return document.addEventListener("mousedown",e),()=>document.removeEventListener("mousedown",e)},[]),(0,e.jsxs)($r,{ref:l,children:[(0,e.jsxs)(Mr,{onClick:()=>i(e=>!e),children:[n.icon&&(0,e.jsx)("img",{src:n.icon}),n.label,(0,e.jsx)(Ur,{open:a})]}),a&&(0,e.jsx)(Hr,{children:t.map(t=>(0,e.jsxs)(Vr,{onClick:()=>{r(t),i(!1)},children:[t.icon&&(0,e.jsx)("img",{src:t.icon}),t.label]},t.value))})]})}const qr={orange:{primary:"#FF7A00",buttonText:"#fff",buttonGradient:"linear-gradient(84.38deg, #ff8d6b 7.59%, #ffba47 96.71%)"},green:{primary:"#1DB954",buttonText:"#fff",buttonGradient:"linear-gradient(84.38deg, #19a44b 7.59%, #49d17d 96.71%)"}},Wr=(0,o.createContext)(null);function Qr({children:t}){const[n,r]=(0,o.useState)("orange");return(0,e.jsx)(Wr.Provider,{value:{theme:n,setTheme:r},children:(0,e.jsx)($t,{theme:qr[n],children:t})})}const Kr=Qt.div`
+`;function qr({options:t,value:n,onChange:r}){const[a,i]=(0,o.useState)(!1),l=(0,o.useRef)(null);return(0,o.useEffect)(()=>{const e=e=>{var t;(null===(t=l.current)||void 0===t?void 0:t.contains(e.target))||i(!1)};return document.addEventListener("mousedown",e),()=>document.removeEventListener("mousedown",e)},[]),(0,e.jsxs)(Mr,{ref:l,children:[(0,e.jsxs)(Ur,{onClick:()=>i(e=>!e),children:[n.icon&&(0,e.jsx)("img",{src:n.icon}),n.label,(0,e.jsx)(Hr,{open:a})]}),a&&(0,e.jsx)(Vr,{children:t.map(t=>(0,e.jsxs)(Br,{onClick:()=>{r(t),i(!1)},children:[t.icon&&(0,e.jsx)("img",{src:t.icon}),t.label]},t.value))})]})}const Wr={orange:{primary:"#FF7A00",buttonText:"#fff",buttonGradient:"linear-gradient(84.38deg, #ff8d6b 7.59%, #ffba47 96.71%)"},green:{primary:"#1DB954",buttonText:"#fff",buttonGradient:"linear-gradient(84.38deg, #19a44b 7.59%, #49d17d 96.71%)"}},Qr=(0,o.createContext)(null);function Kr({children:t}){const[n,r]=(0,o.useState)("orange");return(0,e.jsx)(Qr.Provider,{value:{theme:n,setTheme:r},children:(0,e.jsx)($t,{theme:Wr[n],children:t})})}const Gr=Qt.div`
   margin: 0 auto;
   padding: 60px 32px;
   background: 
@@ -316,7 +316,7 @@
   @media (max-width: 375px) {
     padding: 32px 16px;
   }
-`,Gr=Qt.div`
+`,Yr=Qt.div`
   display: grid;
   grid-template-columns: auto auto 1fr auto;
   grid-template-areas: "hero download info social";
@@ -341,7 +341,7 @@
       "info";
     gap: 40px;
   }
-`,Yr=Qt.div`
+`,Xr=Qt.div`
   grid-area: hero;
   display: flex;
   justify-content: flex-start;
@@ -349,11 +349,11 @@
   @media (max-width: 1200px) {
     display: none;
   }
-`,Xr=Qt.div`
+`,Jr=Qt.div`
   grid-area: download;
   display: flex;
   justify-content: center;
-`,Jr=Qt.div`
+`,Zr=Qt.div`
   grid-area: info;
   display: flex;
   justify-content: flex-start;
@@ -363,7 +363,7 @@
     justify-content: center;
     width: 100%;
   }
-`,Zr=Qt.div`
+`,ea=Qt.div`
   grid-area: social;
   display: flex;
   flex-direction: column;
@@ -375,7 +375,7 @@
     align-items: center;
     gap: 50px;
   }
-`,ea=Qt.div`
+`,ta=Qt.div`
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -384,7 +384,7 @@
   @media (max-width: 1200px) {
     align-items: center;
   }
-`,ta=Qt.div`
+`,na=Qt.div`
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -393,7 +393,7 @@
   @media (max-width: 1200px) {
     align-items: center;
   }
-`,na=Qt.img`
+`,ra=Qt.img`
   width: 288px;
   height: 288px;
 
@@ -401,13 +401,13 @@
     width: 240px;
     height: 240px;
   }
-`,ra=Qt.div`
+`,aa=Qt.div`
   display: flex;
   gap: 4px;
-`,aa=Qt.img`
+`,oa=Qt.img`
   width: 52px;
   cursor: pointer;
-`,oa=Qt.div`
+`,ia=Qt.div`
   font-family: "SF Pro", -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -419,4 +419,4 @@
     text-align: center;
     align-self: anchor-center;
   }
-`,ia=n.p+"477e28dfd271589f40d5.png",la=n.p+"1ca6a59fc14e6ec5926c.svg",sa=n.p+"28345aee42825927908d.svg",ua=n.p+"51f97f26a4441daeb7df.svg",ca=n.p+"c499b1fd6f90683fcefd.svg",fa=n.p+"5dda4dba15cc9763a784.svg",da=n.p+"687db2ac3ca22497fba4.svg";function pa(){var t;const{t:n,i18n:r}=cr(),{theme:a,setTheme:i}=(()=>{const e=(0,o.useContext)(Wr);if(!e)throw new Error("useThemeApp must be used inside ThemeProviderApp");return e})(),l=[{label:"Turkish",value:"tr",icon:fa},{label:"Ukraine",value:"ua",icon:da}],[s,u]=(0,o.useState)(l[0]),c=[{label:"Orange",value:"orange"},{label:"Green",value:"green"}],f=null!==(t=c.find(e=>e.value===a))&&void 0!==t?t:c[0];return(0,e.jsx)(Kr,{children:(0,e.jsxs)(Gr,{children:[(0,e.jsx)(Yr,{children:(0,e.jsx)(na,{src:ia})}),(0,e.jsx)(Xr,{children:(0,e.jsx)(zr,{})}),(0,e.jsx)(Jr,{children:(0,e.jsx)(Dr,{})}),(0,e.jsxs)(Zr,{children:[(0,e.jsxs)(ea,{children:[(0,e.jsx)(Br,{options:l,value:s,onChange:e=>{u(e),r.changeLanguage(e.value)}}),(0,e.jsx)(Br,{options:c,value:f,onChange:e=>{i(e.value)}})]}),(0,e.jsxs)(ta,{children:[(0,e.jsx)(oa,{children:n("footer.social")}),(0,e.jsxs)(ra,{children:[(0,e.jsx)(aa,{src:la}),(0,e.jsx)(aa,{src:sa}),(0,e.jsx)(aa,{src:ua}),(0,e.jsx)(aa,{src:ca})]})]})]})]})})}function ha(){return(0,e.jsxs)(Gt,{children:[(0,e.jsx)(Yt,{children:(0,e.jsx)(Cr,{})}),(0,e.jsx)(Xt,{children:(0,e.jsx)(pa,{})})]})}const ga=JSON.parse('{"header":{"cta":"ВІДКРИТИ ГРУ"},"footer":{"social":"Ми в соцмережах:","dowloadTitle":"Завантажити Казино","dowloadSubtitle":"Грайте будь-де та будь-коли","dowloadCta":"Встановити додаток","age":"Тільки 18+","certificate":"Казино сертифіковане Управлінням з азартних ігор Анжуана"}}'),ma=JSON.parse('{"header":{"cta":"OPEN THE GAME"},"footer":{"social":"Us on social media:","dowloadTitle":"Download Casino","dowloadSubtitle":"Play Min anywhere, anytime","dowloadCta":"Install App","age":"Only 18+","certificate":"Casino is certified by the Anjouan Gaming Authority"}}');Vn.use(rr).init({resources:{ua:{translation:ga},tr:{translation:ma}},lng:"tr",fallbackLng:"tr",interpolation:{escapeValue:!1}}),(0,t.createRoot)(document.getElementById("root")).render((0,e.jsx)(function(){return(0,e.jsx)(Qr,{children:(0,e.jsx)(ha,{})})},{}))})()})();
+`,la=n.p+"477e28dfd271589f40d5.png",sa=n.p+"1ca6a59fc14e6ec5926c.svg",ua=n.p+"28345aee42825927908d.svg",ca=n.p+"51f97f26a4441daeb7df.svg",fa=n.p+"c499b1fd6f90683fcefd.svg",da=n.p+"5dda4dba15cc9763a784.svg",pa=n.p+"687db2ac3ca22497fba4.svg";function ha(){var t;const{t:n,i18n:r}=cr(),{theme:a,setTheme:i}=(()=>{const e=(0,o.useContext)(Qr);if(!e)throw new Error("useThemeApp must be used inside ThemeProviderApp");return e})(),l=[{label:"Turkish",value:"tr",icon:da},{label:"Ukraine",value:"ua",icon:pa}],[s,u]=(0,o.useState)(l[0]),c="tr"===s.value?[{label:"Orange",value:"orange"}]:[{label:"Green",value:"green"}],f=null!==(t=c.find(e=>e.value===a))&&void 0!==t?t:c[0];return(0,e.jsx)(Gr,{children:(0,e.jsxs)(Yr,{children:[(0,e.jsx)(Xr,{children:(0,e.jsx)(ra,{src:la})}),(0,e.jsx)(Jr,{children:(0,e.jsx)(Tr,{})}),(0,e.jsx)(Zr,{children:(0,e.jsx)($r,{})}),(0,e.jsxs)(ea,{children:[(0,e.jsxs)(ta,{children:[(0,e.jsx)(qr,{options:l,value:s,onChange:e=>{u(e),r.changeLanguage(e.value);const t="tr"===e.value?"orange":"green";i(t)}}),(0,e.jsx)(qr,{options:c,value:f,onChange:e=>{i(e.value)}})]}),(0,e.jsxs)(na,{children:[(0,e.jsx)(ia,{children:n("footer.social")}),(0,e.jsxs)(aa,{children:[(0,e.jsx)(oa,{src:sa}),(0,e.jsx)(oa,{src:ua}),(0,e.jsx)(oa,{src:ca}),(0,e.jsx)(oa,{src:fa})]})]})]})]})})}function ga(){return(0,e.jsxs)(Gt,{children:[(0,e.jsx)(Yt,{children:(0,e.jsx)(Er,{})}),(0,e.jsx)(Xt,{children:(0,e.jsx)(ha,{})})]})}const ma=JSON.parse('{"header":{"cta":"ВІДКРИТИ ГРУ"},"footer":{"social":"Ми в соцмережах:","dowloadTitle":"Завантажити Казино","dowloadSubtitle":"Грайте будь-де та будь-коли","dowloadCta":"Встановити додаток","age":"Тільки 18+","certificate":"Казино сертифіковане Управлінням з азартних ігор Анжуана"}}'),ya=JSON.parse('{"header":{"cta":"OPEN THE GAME"},"footer":{"social":"Us on social media:","dowloadTitle":"Download Casino","dowloadSubtitle":"Play Min anywhere, anytime","dowloadCta":"Install App","age":"Only 18+","certificate":"Casino is certified by the Anjouan Gaming Authority"}}');Vn.use(rr).init({resources:{ua:{translation:ma},tr:{translation:ya}},lng:"tr",fallbackLng:"tr",interpolation:{escapeValue:!1}}),(0,t.createRoot)(document.getElementById("root")).render((0,e.jsx)(function(){return(0,e.jsx)(Kr,{children:(0,e.jsx)(ga,{})})},{}))})()})();
