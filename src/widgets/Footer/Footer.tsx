@@ -58,8 +58,8 @@ export default function Footer() {
   };
 
   const themeOptions: OptionType[] = lang.value === "tr"
-    ? [{ label: "Orange", value: "orange" },{ label: "Green", value: "green" }]
-    : [{ label: "Green", value: "green" },{ label: "Orange", value: "orange" }];
+    ? [{ label: "Orange", value: "orange" }]
+    : [{ label: "Green", value: "green" }];
 
   const selectedTheme =
     themeOptions.find(o => o.value === theme) ?? themeOptions[0];
