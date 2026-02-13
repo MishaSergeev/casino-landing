@@ -20,6 +20,14 @@ export default function Header() {
   const { t } = useTranslation()
   const [open, setOpen] = useState(false)
 
+  const openGame = () => {
+    window.open(
+      GAME_URL,
+      "_blank",
+      "width=1024,height=768,resizable=yes,scrollbars=yes,status=yes"
+    );
+  };
+
   return (
     <>
       <Wrapper>
@@ -27,7 +35,7 @@ export default function Header() {
         <SlotLogo src={logo777} />
 
         <CTA>
-          <Button onClick={() => setOpen(true)}>
+          <Button onClick={openGame/* () => setOpen(true) */}>
             {t("header.cta")}
           </Button>
         </CTA>
