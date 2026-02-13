@@ -39,32 +39,34 @@ type OptionType = {
 }
 
 export default function Footer() {
-  const { t, i18n } = useTranslation()
-  const { theme, setTheme } = useThemeApp()
+  const { t, i18n } = useTranslation();
+  const { theme, setTheme } = useThemeApp();
 
   const langOptions: OptionType[] = [
     { label: "Turkish", value: "tr", icon: flagTr },
     { label: "Ukraine", value: "ua", icon: flagUa },
-  ]
+  ];
 
-  const [lang, setLang] = useState<OptionType>(langOptions[0])
+  const [lang, setLang] = useState<OptionType>(langOptions[0]);
 
   const handleLangChange = (option: OptionType) => {
-    setLang(option)
-    i18n.changeLanguage(option.value)
-  }
+    setLang(option);
+    i18n.changeLanguage(option.value);
 
-  const themeOptions: OptionType[] = [
-    { label: "Orange", value: "orange" },
-    { label: "Green", value: "green" },
-  ]
+    const defaultTheme = option.value === "tr" ? "orange" : "green";
+    setTheme(defaultTheme as ThemeName);
+  };
+
+  const themeOptions: OptionType[] = lang.value === "tr"
+    ? [{ label: "Orange", value: "orange" },{ label: "Green", value: "green" }]
+    : [{ label: "Green", value: "green" },{ label: "Orange", value: "orange" }];
 
   const selectedTheme =
-    themeOptions.find(o => o.value === theme) ?? themeOptions[0]
+    themeOptions.find(o => o.value === theme) ?? themeOptions[0];
 
   const handleThemeChange = (option: OptionType) => {
-    setTheme(option.value as ThemeName)
-  }
+    setTheme(option.value as ThemeName);
+  };
 
   return (
     <Wrapper>
@@ -88,7 +90,6 @@ export default function Footer() {
               value={lang}
               onChange={handleLangChange}
             />
-
             <Select
               options={themeOptions}
               value={selectedTheme}
@@ -109,5 +110,5 @@ export default function Footer() {
         </SocialWrap>
       </GridWrap>
     </Wrapper>
-  )
+  );
 }

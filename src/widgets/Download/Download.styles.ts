@@ -33,7 +33,7 @@ export const Title = styled.div`
 
 export const Subtitle = styled.div`
   font-family: "SF Pro", sans-serif;
-  font-weight: 600; /* Semibold */
+  font-weight: 600; 
   font-size: 16px;
   line-height: 22px;
   letter-spacing: 0;
