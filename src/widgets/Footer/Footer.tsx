@@ -5,8 +5,8 @@ import Download from "../Download/Download"
 import Info from "../Info/Info"
 import Select from "../../shared/ui/Select/Select"
 
-import { useThemeApp } from "../../app/ThemeContext"
-import { ThemeName } from "../../app/theme"
+import { useThemeApp } from "../../theme/ThemeContext"
+import { ThemeName } from "../../theme/theme"
 
 import {
   Wrapper,

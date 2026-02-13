@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { AppTheme } from "../../../app/theme"
+import { AppTheme } from "../../../theme/theme"
 
 export const StyledButton = styled.button<{ theme: AppTheme }>`
   display: inline-flex;
