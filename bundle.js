@@ -66,8 +66,8 @@
   background: rgba(0, 0, 0, 0.8);
 `,gr=Qt.div`
   position: relative;
-  width: 95%;
-  height: 95%;
+  width: 80%;
+  height: 80%;
   margin: 2.5% auto;
 
   background: #000;
