@@ -90,11 +90,11 @@ export default function Footer() {
               value={lang}
               onChange={handleLangChange}
             />
-            <Select
+{/*             <Select
               options={themeOptions}
               value={selectedTheme}
               onChange={handleThemeChange}
-            />
+            /> */}
           </SelectBlock>
 
           <BottomBlock>
